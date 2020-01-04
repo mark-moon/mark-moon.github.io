@@ -30,6 +30,26 @@
 
             html { overflow-y:scroll; }
 
+            .topnav { background-color: #303030;
+                      overflow: hidden; }
+
+            .topnav a { float: left;
+                        display: block;
+                        color: #f8f8f8;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        font-size: 24px;
+                        font-weight: bold; }
+
+            .topnav a:hover { background-color: #206040;
+                              color: #f8f8f8; }
+
+            .topnav a.active { background-color: #803080;
+                               color: #f8f8f8; }
+
+            .topnav .icon { display: none; }
+
         </style>
 
     </head>
@@ -39,31 +59,19 @@
     <body link=#2020ff ; vlink=#803080>
 
 
-        <h1>
-
-            <a style="color:#206040" ; href="https://mark-moon.github.io">Mark Moon</a>
-
-        </h1>
-
-
-        <h2>
-
-            <p><a style="color:#000000"
-             ; href=index.html       >About</a></p>
-            <p><a style="color:#206040"
-             ; href=testimonials.html>Testimonials</a></p>
-            <p><a style="color:#206040"
-             ; href=booking.html     >Book Me</a></p>
-
-        </h2>
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active">About</a>
+          <a href="testimonials.html">Testimonials</a>
+          <a href="booking.html">Book Me</a>
+        </div>
 
 
-        <hr><br><br>
+        <br>
 
 
-        <p>I provide customized direct instruction and guide inquiry-based learning in a variety of subjects, typically within math and physics. Some examples of subjects I've taught appear below, but I am always happy to create a new syllabus for a student, whenever my knowledge allows for it.</p>
-        <p>Most of my students are professionals looking to expand their knowledge in a context that is more flexible and personalized than a college course. I've taught people who work at Google Brain, OpenAI, and Facebook. You can read testimonials from some of my students <a href=testimonials.html>here</a>.</p>
-        <p>Book a free consultation <a href="booking.html">here</a>, and let's discuss what I can help you learn!</p>
+        <p>I provide customized direct instruction and guide inquiry-based learning in a variety of subjects related to math and physics. Some examples of subjects I've taught appear below, but I am always happy to create a new syllabus for a student, whenever my expertise allows for it.</p>
+        <p>Most of my students are professionals looking to expand their knowledge in a setting that is more flexible and personalized than a college course. I've taught people who work at Google Brain, OpenAI, and Facebook. You can read testimonials from some of my students <a href=testimonials.html>here</a>.</p>
+        <p>Book a free consultation <a href="booking.html">here</a>, and we can discuss what you'd like to learn!</p>
 
 
         <h2>Some subjects I have taught before</h2>
@@ -71,6 +79,7 @@
                 <li>category theory</li>
                 <li>differential geometry</li>
                 <li>linear algebra</li>
+                <li>group theory</li>
                 <li>quantum mechanics</li>
                 <li>special relativity</li>
             </ul>
